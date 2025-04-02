@@ -43,7 +43,7 @@ export async function POST(request) {
     
     return NextResponse.json({
       success: false,
-      message: "Could not extract JSON from image"
+      message: "Could not extract JSON from the image"
     }, { status: 400 });
     
   } catch (error) {
